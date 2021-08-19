@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--import terminal-looking font-->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+  </style>
+
+	<title>Which programming language are you?</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Which programming language are you?</h1>
+    <h4>A Personality Quiz</h4>
+	</header>
+
+	<main>
+
+		<h3>1. First, which desktop background would you choose?</h3>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/q1a1.png" height="200" width="200" alt="Image of a default Mac computer background. A large wave about to break, green at the top and getting progressively more blue as it goes down toward the water">
+        <br>
+        <button id="q1a1">The default background</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q1a2.png" height="200" width="200" alt="Image of a world map">
+        <br>
+        <button id="q1a2">A world map</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q1a3.png" height="200" width="200" alt="Image of a smiling white family sitting in a field in autumn with trees behind them">
+        <br>
+        <button id="q1a3">A family photo</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q1a4.png" height="200" width="200" alt="Image of an empty intersection at sunset in purple and pink tones">
+        <br>
+        <button id="q1a4">An aesthetic picture</button>
+      </div>
+
+    </div> 
+    
+    <h3>2. How organized is your workspace?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/q2a1.png" height="200" width="200" alt="Image of a clean, minimalist desk with an open laptop, a few books and a white chair">
+        <br>
+        <button id="q2a1">Everything in its place</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q2a2.png" height="200" width="200" alt="Image of a person with a blue blazer at a messy desk with an old desktop computer and papers everywhere">
+        <br>
+        <button id="q2a2">Organized chaos</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q2a3.png" height="200" width="200" alt="Image of an incredibly messy desk with a pile of papers strewn everywhere under a cluttered corkboard and some moisturizer bottles">
+        <br>
+        <button id="q2a3">Complete disaster</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q2a4.png" height="200" width="200" alt="Image of a blond haired white woman sitting on a bed with a white blanket behind a gray wall. She's typing on a PC laptop and looking stressed">
+        <br>
+        <button id="q2a4">...you mean my bed?</button>
+      </div>
+
+    </div> 
+    
+    <h3>3. Which subject is your favorite?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/q3a1.png" height="200" width="200" alt="Image of a blond-ponytailed woman painting a seaside scene at a small easel set on a table">
+        <br>
+        <button id="q3a1">Art</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q3a2.png" height="200" width="200" alt="Image of a quadratic equation being solved in four steps">
+        <br>
+        <button id="q3a2">Algebra</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q3a3.png" height="200" width="200" alt="Image of a 3D model of a cell">
+        <br>
+        <button id="q3a3">Biology</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q3a4.png" height="200" width="200" alt="Image of some Java code">
+        <br>
+        <button id="q3a4">Computer Science</button>
+      </div>
+
+    </div> 
+    
+    <h3>4. Which adjective best describes you?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/q4a1.png" height="200" width="200" alt="Image of two men smiling and shaking hands as a woman looks on">
+        <br>
+        <button id="q4a1">Friendly</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q4a2.png" height="200" width="200" alt="Image of two people holding a printout of a pie chart and pointing to it with their pens">
+        <br>
+        <button id="q4a2">Analytical</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q4a3.png" height="200" width="200" alt="Image of a little boy pointing up to a chalkboard drawing of a light bulb">
+        <br>
+        <button id="q4a3">Creative</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q4a4.png" height="200" width="200" alt="Image of a brown haired woman with her back to the camera hugging her knees and staring out a large window">
+        <br>
+        <button id="q4a4">Reserved</button>
+      </div>
+
+    </div>
+
+    <h3>5. Finally, which emerging technology excites you most?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/q5a1.png" height="200" width="200" alt="Image representing a neural network, with lines pointing to a blue glowing brain">
+        <br>
+        <button id="q5a1">Machine learning</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q5a2.png" height="200" width="200" alt="Image representing progressive web apps, with the letters PWA above drawings of three phones with websites loaded on them">
+        <br>
+        <button id="q5a2">Progressive web apps</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q5a3.png" height="200" width="200" alt="Image representing search algorithms, with a complicated machine with dials, slide adjustments and vents labelled You Might Like">
+        <br>
+        <button id="q5a3">Search algorithms</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/q5a4.png" height="200" width="200" alt="Image representing big data, with a blurred view of a flowchart connecting lots of color-coded files">
+        <br>
+        <button id="q5a4">Big data</button>
+      </div>
+
+    </div>
+
+    <h3 id="result">You are...</h3>
+    <button class="calculatebutton" id="calculate">Calculate Results</button>
+    <p>
+    <button class="calculatebutton" id="restart">Restart quiz</button>
+    
+  </main>
+  </body>
+</html>
