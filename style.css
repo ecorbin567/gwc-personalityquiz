@@ -1,0 +1,66 @@
+/* STYLE SECTIONING TAGS */
+body {
+  background-color:rgb(3, 3, 43);
+  font-family: 'JetBrains Mono', monospace;
+  font-style: normal;
+  margin: 2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: lime;
+}
+
+h4 {
+  color: lime;
+}
+
+h3 {
+  color: lime;
+  margin-top: 5em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 11em;
+}
+
+/* STYLE BUTTON */
+button {
+  background-color: lime;
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+}
+button:hover {
+  background-color: white;
+}
+
+.calculatebutton {
+  margin-top: 1em; 
+  background-color: lime;
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'JetBrains Mono', monospace;
+}
